@@ -1,0 +1,2 @@
+select * from myshop;
+delete from myshop;

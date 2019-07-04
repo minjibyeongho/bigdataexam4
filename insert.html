@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<h1 align="center">상품등록</h1>
+
+<div align="center">
+<form action="insert.jsp" id="form">
+	<table id="table1">
+		<tr class="t1">
+			<td>아이디 : </td>
+			<td><input type="text" name="id" id="id" placeholder="아이디"></td>
+		</tr>
+		<tr class="t2">
+			<td>상품제목 : </td>
+			<td><input type="text" name="title" id="title" placeholder="상품제목"> </td>
+		</tr>
+		<tr class="t1">
+			<td>상품설명 : </td>
+			<td><input type="text" name="detail" id="detail" placeholder="상품설명"> </td>
+		</tr>
+		<tr class="t2">
+			<td>가격 : </td>
+			<td><input type="text" name="price" id="price" placeholder="가격"> </td>
+		</tr>
+		<tr>
+			<td>
+				<button type="button" id="hw" onclick="check()" >상품등록</button>
+				<script type="text/javascript" src="js.js"></script>
+			</td>
+		</tr>
+	</table>
+</form>
+</div>
+
+</body>
+</html>

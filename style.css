@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+#table1{
+	width: 400px;
+	border: thick;
+}
+
+/* .은 클래스를 의미 #은 id를 의미 */
+.t1{
+	width: 400px;
+	text-align: center;
+	background-color: aqua;
+}
+
+.t2{
+	width: 400px;
+	text-align: center;
+	background-color: orange;
+}
+
+td{
+	width: 100px;
+	text-align: center;
+}
